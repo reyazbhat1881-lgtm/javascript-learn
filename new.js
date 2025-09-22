@@ -30,6 +30,11 @@ console.log(`hello my name is  ${name} and my roll number is ${rollNo}`);
 
 console.log(rollNo);
 
+let xxx = 2000;
+
+console.log(xxx);
+
+
 
 
 
