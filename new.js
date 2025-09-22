@@ -34,6 +34,29 @@ let xxx = 2000;
 
 console.log(xxx);
 
+const gameName = new String (`Reyaz`)
+
+console.log(gameName.length)
+console.log(gameName.toLowerCase());
+console.log(gameName.charAt(3));
+console.log(gameName.indexOf('z'));
+
+const newString = gameName.substring(0,3) 
+
+// this does not include the last character of the string it ignores it
+
+console.log(newString)
+
+const anotherString = gameName.slice(-3, 4)
+console.log(anotherString);
+
+const newString2 = "      Reyaz   "
+console.log(newString2);
+
+console.log(newString2.trim());
+
+
+
 
 
 
