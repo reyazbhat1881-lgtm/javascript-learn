@@ -62,23 +62,35 @@
 // console.log(obj3);
 
 
-const tinder = {
+// const tinder = {
 
-    name: {
+//     name: {
 
-        first: 'reyz',
-        last: 'bhat'
-    }
+//         first: 'reyz',
+//         last: 'bhat'
+//     }
 
     
-}
+// }
 
-console.log(tinder);
-console.log(Object.values(tinder));
-console.log(Object.keys(tinder));
-console.log(Object.entries(tinder));
+// console.log(tinder);
+// console.log(Object.values(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty('name'));
+// console.log(tinder.hasOwnProperty('name'));
 
 //test
+
+const course = {
+    coursename: "AI course",
+    "course-id": "387",
+    "course-instructor": "Reyaz"
+};
+
+console.log(course.coursename);         
+console.log(course["course-id"]);        
+console.log(course["course-instructor"]); 
+
+
 
