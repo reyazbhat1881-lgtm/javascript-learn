@@ -23,4 +23,6 @@ const m1 = arr.splice(2,4)
 
 console.log(m1);
 
+//rsgmkggccvgnvbjjdj
+
 // hello
