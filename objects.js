@@ -92,5 +92,9 @@ console.log(course.coursename);
 console.log(course["course-id"]);        
 console.log(course["course-instructor"]); 
 
+{
 
+    "name": "reyaz",
+    
+}
 
