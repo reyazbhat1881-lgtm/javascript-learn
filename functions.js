@@ -23,7 +23,12 @@
 // console.log("result:", result);
 
 function isUserLoggedIn(username){
+    if(username == undefined){
+
+console.log("please enter your username");
+return
+    }
 return `${username} loggedin`
 }
 
-console.log(isUserLoggedIn("reyaz"))
+console.log(isUserLoggedIn())
