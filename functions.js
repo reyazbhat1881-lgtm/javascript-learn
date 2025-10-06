@@ -32,3 +32,13 @@ return `${username} loggedin`
 }
 
 console.log(isUserLoggedIn())
+  
+
+// Rest Operator
+
+function calculateTotalItemsPrice(...num1)
+{
+    return num1
+}
+
+console.log(calculateTotalItemsPrice(2,52,46,256,2,26,6,26,2,62,));
