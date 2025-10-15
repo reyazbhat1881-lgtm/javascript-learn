@@ -52,11 +52,31 @@
     
 // }
 
-const hasExperience = true
-const hasMasters = false
+// const hasExperience = true
+// const hasMasters = false
 
-if(hasExperience || hasMasters)
-{
-    console.log("eligible");
+// if(hasExperience || hasMasters)
+// {
+//     console.log("eligible");
     
-}
+// }
+
+//********/ Nulllish Coalescing Operator (??): null undefined **********
+
+let val1;
+
+// val = 4?? 30;
+
+// val2 = null ?? 45;
+
+val1 = undefined ?? 44 ?? 55;
+console.log(val1);
+
+
+//******* Terinary Operator *******
+
+const iceTeaPrice = 200;
+
+iceTeaPrice <= 150 ? console.log("less than 80") : console.log("more than 150");
+;
+
