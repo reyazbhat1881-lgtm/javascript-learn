@@ -32,21 +32,40 @@
 
 
     //*********Best Approach ********
-    document.getElementById('images').addEventListener('click', function(e){
-console.log("click inside the ul");
+//     document.getElementById('images').addEventListener('click', function(e){
+// console.log("click inside the ul");
 
-    },false)
+//     },false)
 
-     document.getElementById('owl').addEventListener('click', function(e){
-console.log("owl");
+//      document.getElementById('owl').addEventListener('click', function(e){
+// console.log("owl");
 
-    },false)
+//     },false)
 
-//    false**** Event bubbling
-
-
+// //    false**** Event bubbling
     
+// document.getElementById('google').addEventListener
+// ('click', function(e){
+//     e.preventDefault();
+//     e.stopPropagation();
+//     console.log("Google clicked");
+    
+    
+// })
 
+document.querySelector('#images').addEventListener
+('click', function(e){
+console.log(e.target.parentNode);
+
+if(e.target.tagName === 'IMG'){
+    console.log(e.target.id);
+    let removeIt = e.target.parentNode
+removeIt.remove()
+}
+
+
+// removeIt.parentNode.removeChild(removeIt)
+})
 
 </script>
 </html>
